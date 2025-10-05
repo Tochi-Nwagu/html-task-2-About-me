@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Tochi Nwagu</h1>
+      <p>Backend Developer | Web Enthusiast | Problem Solver</p>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+          <h2>About Me</h2>
+
+          <article>
+            <h3>My Hobby</h3>
+            <p>
+              I enjoy reading novels, watching movies, and playing games during
+              my free time. It helps me relax and also inspires creativity in my
+              coding journey.
+            </p>
+          </article>
+
+          <article>
+            <h3>My Favorite Music</h3>
+            <p>
+              I love listening to soft instrumental and lo-fi music while coding
+              — it helps me stay focused and calm.
+            </p>
+          </article>
+
+          <article>
+            <h3>Why I’m in the Web Development Field</h3>
+            <p>
+              I chose web development because I love the idea of creating
+              something useful from just an idea. It allows me to express
+              creativity while solving real problems.
+              <mark
+                >Turning imagination into something people can actually interact
+                with feels exciting and rewarding.</mark
+              >
+            </p>
+          </article>
+        </section>
+
+        <!-- EXTRA INFO USING DETAILS -->
+        <section id="extra-info">
+          <h2>More About Me</h2>
+          <details>
+            <summary>Click to learn a little more about me</summary>
+            <p>
+              Before transitioning into tech, I practiced law for several years.
+              My legal background has helped me develop strong analytical and
+              documentation skills, which I now apply to software development. I
+              enjoy combining precision and logic to create clean, efficient
+              code.
+            </p>
+          </details>
+        </section>
+
+        <!-- MEDIA SECTION -->
+        <section id="media">
+          <h2>Multimedia</h2>
+
+          <article>
+            <h3>Favorite Video</h3>
+            <video width="400" controls>
+              <source
+                src="./media/video/free-coverr-video.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+            <figcaption>
+              Video by [kyrannio](https://coverr.co/creators/kyrannio) on
+              [Coverr](https://coverr.co)
+            </figcaption>
+          </article>
+
+          <article>
+            <h3>Favorite Audio</h3>
+            <audio controls>
+              <source
+                src="./media/audio/coverr-our-world-9670-preview.mp3"
+                type="audio/mp3"
+              />
+              Your browser does not support the audio element.
+            </audio>
+            <figcaption>
+              Audio downloaded on [Coverr](https://coverr.co)
+            </figcaption>
+          </article>
+        </section>
+
+        <!-- IMAGE SECTION -->
+        <section id="image">
+          <h2>My Favorite Animal</h2>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1547382442-d17c21625a44?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="A playful dolphin jumping out of the water"
+              width="600"
+              height="600"
+            />
+            <figcaption>
+              A dolphin — symbol of intelligence, freedom, and harmony with
+              nature.
+            </figcaption>
+          </figure>
+        </section>
+
+        <!-- MAP SECTION -->
+        <section id="location">
+          <p>Lagos — a city full of energy, creativity, and tech growth!</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63414.16503232769!2d3.3253319514152673!3d6.524379328627558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf50aa8f2ffcb%3A0x34a2f6a9e0a7f4aa!2sLagos!5e0!3m2!1sen!2sng!4v1696199891934!5m2!1sen!2sng"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </section>
+        <section>
+          <form action="">
+            <h2>Contact Me</h2>
+            <div>
+              <label for="name">Name</label><br />
+              <input type="text" id="name" name="name" placeholder="John Doe" />
+            </div>
+            <div>
+              <label for="email">Email</label> <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="john.doe@example.com"
+              />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="+1234567890"
+              />
+            </div>
+            <div>
+              <label for="gender">Gender</label>
+              <input type="radio" name="gender" id="gender" value="male" />Male
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="female"
+              />Female
+              <input
+                type="radio"
+                name="gender"
+                id="gender"
+                value="other"
+              />Other
+            </div>
+            <div>
+              <label for="country">Country of Residence:</label>
+              <select name="country" id="country">
+                <option value="">Select a Country</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="usa">USA</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Message</label><br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <aside>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#extra-info">More About Me</a></li>
+          <li><a href="#media">Multimedia</a></li>
+          <li><a href="#image">My Favorite Image</a></li>
+          <li><a href="#location">My Favorite City</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy;Tochukwu Nwagu 2025 Genesys Upskill.</p>
+    </footer>
+  </body>
+</html>
