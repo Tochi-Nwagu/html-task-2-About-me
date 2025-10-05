@@ -1,4 +1,4 @@
-# 🌟 About Me Page
+# About Me Page
 
 This project is a simple, semantic **HTML portfolio webpage** that introduces who I am, my interests, and why I chose to pursue web development.  
 It demonstrates the use of core **HTML5 semantic elements** and basic web accessibility principles.
