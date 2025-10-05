@@ -17,7 +17,7 @@ The **About Me Page** includes:
 - A highlighted (marked) sentence
 - A Google Map embedded using `<iframe>`
 - Use of `<details>` and `<summary>` for interactive content
-- An `<aside>` for fun facts
+- An `<aside>` for navigation
 - A structured layout using semantic elements such as:
   - `<header>`
   - `<main>`
